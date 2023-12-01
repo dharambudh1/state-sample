@@ -1,16 +1,39 @@
-# state_sample
+# State Management Demo
 
-A new Flutter project.
+## Information
+Here's a concise summary of the key differences between BLoC with RxDart and GetX:
 
-## Getting Started
+1. **Approach:**
+   - **BLoC with RxDart:** Traditional reactive programming with streams.
+   - **GetX:** Lightweight and pragmatic, combines state management and dependency injection.
 
-This project is a starting point for a Flutter application.
+2. **Learning Curve:**
+   - **BLoC with RxDart:** Steeper learning curve, especially for beginners.
+   - **GetX:** More approachable and simpler for developers.
 
-A few resources to get you started if this is your first Flutter project:
+3. **Boilerplate Code:**
+   - **BLoC with RxDart:** More boilerplate, involves setting up streams and sinks.
+   - **GetX:** Less boilerplate, reduces ceremony and class creation.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4. **Dependency Injection:**
+   - **BLoC with RxDart:** Typically requires a separate DI package.
+   - **GetX:** Integrates dependency injection directly.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. **Navigation:**
+   - **BLoC with RxDart:** Navigation handled separately.
+   - **GetX:** Built-in navigation system with named routes.
+
+6. **Performance:**
+   - **BLoC with RxDart:** Good performance but may have some overhead.
+   - **GetX:** Excellent performance and efficiency.
+
+7. **Community:**
+   - **BLoC with RxDart:** Well-established community.
+   - **GetX:** Growing community with rapid popularity.
+
+Used packages: 
+  - [rxdart](https://pub.dev/packages/rxdart)
+  - [get](https://pub.dev/packages/get)
+
+## Preview
+![alt text](https://i.postimg.cc/bwkvCJPV/imgonline-com-ua-twotoone-yi-S8ltlt4m7e-TO.png "img")
